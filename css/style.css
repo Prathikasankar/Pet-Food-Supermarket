@@ -1,0 +1,619 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+ul{
+    padding-left: 0;
+}
+ul li{
+    list-style: none;
+}
+  a{
+    text-decoration: none;
+}
+  body{
+    font-family: 'montserrat' !important;
+}
+.top_bar{
+    background-color:#F26C3F ;
+    width:100% ;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.top_bar h3{
+    color: white;
+    font-size: 16px;
+}
+.content{
+    padding: 35px !important;
+    font-size: 15px;
+    font-weight: 700;
+}
+.content:hover{
+    color:#F4D779;
+}
+.container-fluid.set {
+    display: block;
+} 
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color:#F26C3F;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #F26C3F;
+}
+a.navbar-brand.search:hover {
+    color: #F26C3F;
+}
+.nav_spm {
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin-top: -20px;
+}
+.img{
+    margin-top: -30px;
+}
+.super_market_opts{
+    display: flex;
+}
+.sup_mkt_nav_bar{
+    align-items: center;
+}
+#navbarSupportedContent{
+    justify-content: space-around;
+}
+.header{
+    margin-top: 20px;
+}
+.fa-cart-shopping{
+    margin-right: 10px;
+}
+.background{
+    background-color: #F4D779;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 215px;
+}
+.background ul{
+    display: flex;
+    padding-left: 0
+}
+.top{
+    background-color: #F26C3F;
+    color:white;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+.top:hover{
+    color: black;
+}
+.now{
+    background-color: transparent;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    border:2px solid #F26C3F;
+    color: #F26C3F;
+    margin-left: 25px;
+}
+.now:hover{
+    color: black;
+    border-color: #0D0D0D;
+}
+.petfood{
+    display: flex;
+}
+.introduction{
+    padding: 201px 65px 200px 90px;
+    color: #0D0D0D
+}
+.introduction h2{
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.introduction p{
+    margin-bottom:25px ;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.dog_img{
+    margin-left: -146px;
+    width: 100%;
+}
+.dog_quotes img{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.dog_quotes h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color:#F26C3F;
+
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+}
+.dog_quotes span{
+    color:#0D0D0D;
+}
+.dogg{
+    background-color: #F6F6F6;
+    margin-bottom: 100px;
+}
+
+.icons-1{
+    background-color:rgba(0, 34, 156, 0.1);
+    height: 120px;
+    width: 120px;
+    font-size: 90px;
+    padding: 15px;
+    display: flex;
+    justify-content: centerq;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.icons-2{
+    background-color:rgba(152, 80, 197, 0.25);
+    height: 120px;
+    width: 120px;
+    font-size: 79px;
+    padding: 15px;
+    padding-top: 23px;
+    display: flex;
+    justify-content: centerq;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.icons-3{
+    background-color:rgba(242, 108, 63, 0.3);
+    height: 120px;
+    width: 120px;
+    font-size: 90px;
+    padding: 15px;
+    display: flex;
+    justify-content: centerq;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.truck{
+    background-color: red !important;
+}
+.doggo{
+    margin-bottom: 60px;
+
+}
+.doggo h3{
+    text-align: center;
+    color: #F26C3F;
+
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+.doggo p{
+    text-align: center;
+    color: #0D0D0D;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+}
+.doggo i:nth-child(2){
+    font-size: 75px;
+}
+.topic{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+}
+.topic span{
+    color: #F26C3F;
+}
+.card-1{
+    display: flex;
+    justify-content: center;
+}
+.card-1 img{
+    background-color: #F3ECFC;
+    height: 270px;
+    width: 270px;
+    padding: 30px;
+}
+.categories h3{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+.top_categories{
+    margin-bottom: 200px;
+}
+
+.top_categories .categories img:nth-child(2){
+    color: red;
+    background-color: red;
+}
+.essentials img{
+    padding: 65px;
+    background-color: #F6F6F6;
+}
+.pillow img{
+    padding: 40px;
+    background-color: #F0FDEC;
+}
+.pedigree img{
+    padding: 45px;
+    background-color: #FFF0ED;
+}
+.petco_vital_care{
+    display: flex;
+}
+.care{
+    display: block;
+}
+.care h5{
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+}
+.care h2{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+.vital-care{
+    margin-bottom: 100px;
+}
+.vital-care h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+.shop_now{
+    background-color: #F26C3F;
+    color:white;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    padding-left: 0 !important;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+.shop_now:hover{
+    color: black;
+}
+.shop{
+    padding: 0;
+}
+.curly_girl1{
+    background-color:#F26C3F ;
+    width: 514px;
+    height: 348px;
+    border-radius: 10px;
+}
+.curly_girl img{
+    margin-left: 45px;
+    margin-top: -70px;
+    position: absolute;
+}
+.product_img{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.description{
+    text-align: center;
+    font-size: 14px;
+}
+.description h3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+.description h4{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: #F26C3F;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    color: #BDBDBD;
+    padding-bottom: 10px;
+}
+.best_seller{
+    text-align: center;
+}
+.best_seller_cnt{
+    margin-bottom: 50px;
+}
+.best_seller h2{
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+}
+.best_seller h2 span{
+    color: #F26C3F;
+}
+.star-3{
+    color: #F3CD03;
+}
+.cat_wave{
+    background: url('/static/images/wave_background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.catty_description{
+    display: flex;
+
+}
+.taste_guarentee{
+    display: flex;
+}
+.taste_guarentee img{
+    height:53px ;
+    width:53px ;
+}
+.taste_quote{
+    display: block;
+    font-family: roboto;
+    padding-bottom: 30px;
+}
+.taste_quote h5{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+.taste_quote h3{
+    margin-bottom: 0;
+}
+
+.taste_it h3{
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.taste_it h4{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.taste_content {
+    padding: 235px 86px 50px 170px;
+}
+.cat_sec{
+    margin-top: 22px;
+}
+
+.taste_content h4 span{
+    padding-bottom: 10px;
+}
+.taste_content h4 {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.more{
+    background-color: #F26C3F;
+    color:white;
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    padding-left: 0 !important;
+}
+.more:hover{
+    color: black;
+}
+.group_brands ul{
+    display: flex;
+    justify-content: space-between;
+}
+.popular_topic h4{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.popular_brands{
+    margin-bottom: 100px;
+}
+
+.popular_topic span{
+    color: #F26C3F;
+} 
+.new_puppy{
+    background-color:#F4D779 !important ;
+    width: 100%;
+    height: 465px;
+    background: url(../images/puppy_background.svg) ;
+    margin-bottom: 100px;
+}
+.puppy_content h2{
+    font-family: Roboto;
+    font-size: 48px !important;
+    font-weight:700 ;
+    text-align:center;
+    margin-bottom: 20px;
+    color:#0D0D0D;
+}
+.puppy_content span{
+    color: #F26C3F;
+}
+.puppy_content h3{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+.puppy_content ul{
+    justify-content: center;
+}
+.shop_kitchen{
+    background-color: #F26C3F;
+    color:white;
+    border-radius: 45px;
+    height: 54px;
+    width: 240px;
+    border: none;
+    padding-left: 0 !important;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+}
+button.shop_kitchen:hover {
+    color: black;
+}
+.puppy_content{
+    padding: 115px 50px 110px 50px; 
+}
+.new_puppy ul li{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    background-color:#F4D779;
+    text-decoration:none ;
+    color: white;
+    font-family: Barlow;
+    padding-top: 119px;
+    padding-bottom: 100px;
+}
+.footer_section{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer p{
+    color: #F26C3F;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer i{
+    color: #F26C3F;
+}
+.footer_section .row{
+    width: 100%;
+}
+
+.supermarket_address h2{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700; 
+}
+.supermarket_address h3{
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 400;
+}
+.supermarket_address{
+    text-align: center;
+}
+.searchbar{
+    position: relative;
+}
+.search_ftr{
+    padding: 0 140px 0 10px;
+    height: 40px;
+    width: 323px;
+    border-radius: 25px;    
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+}
+input.search_ftr:focus-visible {
+    outline: none;
+}
+.searchbar button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+    width: 140px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F26C3F;
+    color: white;
+    left: 184px;
+}
+.searchbar button:hover{
+    color: black;
+}
+.subscribes_and_offers h3{
+    font-family: Barlow;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;  
+    padding-bottom: 10px;  
+}
+.payment_cards{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_section ul li a:hover{
+    color: #F26C3F;
+}
+.brand_logo i:hover{
+    color: #0D0D0D;
+}
+.sup_mkt_nav_bar {
+    align-items: center;
+    display: contents;
+}

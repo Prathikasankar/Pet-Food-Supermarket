@@ -1,0 +1,228 @@
+@media (min-width: 375px) and (max-width:767px){
+    .desktop_logo{
+        display: none;
+    }
+    /* .petfood {
+        display: block;
+    } */
+    .nav_icon{
+        position: relative;
+        top: -10px;
+    }
+    /* .petfood .col-6{
+        width: 100%;
+    } */
+    .introduction{
+        padding: 90px 0 0 0;
+        position: absolute;
+        z-index: 4;
+    }
+    .background{
+        height: 530px;
+        margin-bottom: 0px;
+    }
+    .top{
+        width:170px ;
+    }
+    .now{
+        width: 170px;
+    }
+    .dog_img img{
+        width: 100%;
+        opacity: 0.20;
+        position: absolute;
+        left: 0px;
+    }
+    .petfood .col-6{
+        width: 100%;
+    }
+    .doggo{
+        display: block;
+    }
+    .dogg .col-4{
+        width: 100%;
+    }
+    .top_categories .col-3{
+        width: 100%;
+    }
+    .top_categories{
+        margin-bottom: 80px;
+    }
+    .vital-care .col-6{
+        width: 100%; 
+    }
+    .curly_girl{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .curly_girl img{
+        width: 300px;
+        margin-left: 15px;
+        margin-top: -35px;
+    }
+
+    .curly_girl1{
+        background-color: #F26C3F;
+        height: 180px;
+        border-radius: 10px;
+        width: 300px;
+    }
+    .best_seller .col-3{
+        width: 100%;
+    }
+    .cat_wave{
+        margin-top: 0;
+        height: 510px;
+    }
+    .catty img{
+        width: 100%;
+        height: 380px;
+        opacity: 0.25;
+    }
+    .taste_guarentee {
+        display: block;
+    }
+    .catty_description{
+        text-align: center;
+    }
+    .taste_content{
+        padding: 0;
+        margin-top: 100px;
+    }
+    .group_brands ul {
+        display: block;
+    }
+    .group_brands ul li{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .group_brands{
+        margin-bottom: 60px;
+    }
+    .new_puppy{
+        height: auto;
+        background: no-repeat;
+    }
+    .new_puppy .col-3{
+        width: 100%;
+    }
+    .new_puppy .col-6{
+        width: 100%;
+    }
+    .puppy_content{
+        padding: 0;
+    }
+    .products{
+        margin-bottom: 30px;
+    }
+    .cat_wave .col-6{
+        width: 100%;    
+    }
+    .catty_description{
+        z-index: 4;
+        position: absolute;
+        left: 0;
+    }
+    .girl_puppy_img{
+        justify-content: center;
+        display: flex;
+    }
+    .golden_retriver_img{
+        justify-content: center;
+        display: flex;
+    }
+    .golden_retriver_img img{
+        width: 100%;
+    }
+    .subscribes_and_offers h3{
+        text-align: center;
+    }
+    .footer_section .col-2, .col-3{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_section ul li p{
+        margin-bottom: 0;
+    }
+    .payment_cards img{
+        width: 100%;
+    }
+    .search_ftr{
+        padding: 0 142px 0 10px;
+        height: 40px;
+        width: 323px;
+        border-radius: 25px;
+        font-family: Barlow;
+        font-size: 14px;
+        font-weight: 300;
+        border: none;
+    }
+    .searchbar button{
+        position: absolute;
+        right: 0;
+        top: -8;
+        bottom: 0;
+        margin: auto;
+        height: 40px;
+        width: 140px;
+        border-radius: 25px;
+        border: none;
+        background-color: #F26C3F;
+        color: white;
+        left: 184px;
+    }
+    .desktop_logo{
+        display: none;
+    }
+    .supermarket_toggler{
+        display: flex;
+        align-items: center;
+    }
+   .supermarket_toggler button{
+        height: 50px;
+   }
+   .Cont_us{
+        margin-bottom: 15px;
+   }
+   .petco_vital_care{
+        display: flex;
+        justify-content: center;
+   }
+    .shop_now {
+        display: block;
+        margin: 0 auto;
+   }
+   .vital-care h3{
+        text-align: center;
+   }
+}
+
+@media (min-width:992px) and (max-width:1400px) {
+
+}
+
+@media (min-width:992px) {
+    .logo_set{
+        display: none;
+    }
+    
+}
+
+@media (max-width:992px) {
+    .nav_spm{
+        display: block ;
+    }
+    a.navbar-brand.logo_set{
+        margin-right: auto !important;
+    }
+    .desktop_logo{
+        display: none;
+    }
+    .sup_mkt_nav_bar {
+        align-items: unset;
+    }
+  
+}
